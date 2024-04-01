@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1 className='text-5xl mb-2 lg:mb-3'>Matt Morrow</h1>
                 <hr className="mt-2 lg:mt-3 border-t-2 border-gray-400"/>
                 <p className='mt-2 lg:mt-3 text-lg lg:text-xl text-slate-300 font-sans'>
-                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                    Let's build something amazing together. 
                 </p>
             </div>
 
@@ -25,7 +25,7 @@ const Hero = () => {
             <div className='lg:w-1/4 ssm:w-1/3 ssm:pl-5 lg:pl-0'>
                 <p className='text-4xl mb-2 lg:mb-3'>About Me</p>
                 <p className='text-slate-300 mb-4 lg:mb-5'>
-                    Let's build something amazing together.
+                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                 </p>
                 <button className='bg-white text-indigo-600 px-8 lg:px-10 py-2 my-3 rounded-full group relative'>
                     <span className="inline-block">

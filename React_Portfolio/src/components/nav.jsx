@@ -37,9 +37,9 @@ const Nav = () => {
                     {/* Menu links for larger screens */}
                     <div className="ssm:hidden sm:hidden md:block lg:block xl:block space-x-2">
                         <a href="#" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">About</a>
-                        <a href="#" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Skills</a>
                         <a href="#" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Projects</a>
                         <a href="#" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Contact</a>
+                        <a href="#" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Resume</a>
                     </div>
                     {/* Menu toggle button for smaller screens */}
                     <div className="ssm:block sm:block md:hidden lg:hidden xl:hidden">
@@ -62,13 +62,13 @@ const Nav = () => {
                                 <a href="#" className="text-white text-xl mb-2 cursor-pointer">About</a>
                             </li>
                             <li>
-                                <a href="#" className="text-white text-xl mb-2 cursor-pointer">Skills</a>
-                            </li>
-                            <li>
                                 <a href="#" className="text-white text-xl mb-2 cursor-pointer">Projects</a>
                             </li>
                             <li>
                                 <a href="#" className="text-white text-xl mb-2 cursor-pointer">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#" className="text-white text-xl mb-2 cursor-pointer">Resume</a>
                             </li>
                         </ul>
                     </div>
