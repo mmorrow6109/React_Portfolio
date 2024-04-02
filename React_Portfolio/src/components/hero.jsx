@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
 
       {/* Right Section */}
-      <div className='lg:w-1/4 ssm:w-1/3 ssm:pl-5 lg:pl-0'>
+      <div id='#about-section' className='lg:w-1/4 ssm:w-1/3 ssm:pl-5 lg:pl-0'>
         <p className='text-4xl mb-2 lg:mb-3'>About Me</p>
         <p className='text-slate-300 mb-4 lg:mb-5'>
           Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
@@ -47,7 +47,6 @@ const Hero = () => {
                         <li className='mb-2'>Git and GitHub</li>
                         <li className='mb-2'>Responsive web design</li>
                         <li className='mb-2'>RESTful APIs</li>
-                        <li className='mb-2'>Agile methodologies</li>
                     </ul>
                 </div>
             </p>
