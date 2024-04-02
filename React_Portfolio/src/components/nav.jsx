@@ -37,7 +37,7 @@ const Nav = () => {
                     {/* Menu links for larger screens */}
                     <div className="ssm:hidden sm:hidden md:block lg:block xl:block space-x-2 font-mono">
                         <a href="#about-section" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">About</a>
-                        <a href="#projects-section" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Projects</a>
+                        <a href="#portfolio-section" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Portfolio</a>
                         <a href="#contact-section" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Contact</a>
                         <a href="#resume-section" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Resume</a>
                     </div> {/*need to add contact section at bottom and link to a resume file*/}

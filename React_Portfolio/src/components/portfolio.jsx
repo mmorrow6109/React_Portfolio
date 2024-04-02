@@ -3,10 +3,10 @@ import Project1Img from '../assets/question.jpg'
 // import Project3Img from '../assets/3.jpg'
 // import Project4Img from '../assets/4.jpg'
 
-export default function Projects() {
+export default function Portfolio() {
     return (
         <>
-            <div id='projects-section' className='bg-indigo-800 m-20 max-w-full rounded-xl'>
+            <div id='portfolio-section' className='bg-indigo-800 m-20 max-w-full rounded-xl'>
                 <div className='grid justify-items-center m-10'>
                     <h1 className='text-3xl text-white mt-10 font-mono'>Projects</h1>
                 </div>

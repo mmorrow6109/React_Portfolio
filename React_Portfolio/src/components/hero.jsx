@@ -1,4 +1,3 @@
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import HeroPic from '../assets/heroPic.jpg';
 import React, { useState } from 'react';
 
@@ -56,15 +55,6 @@ const Hero = () => {
                     </span>
                     <span className="absolute inset-0 rounded-full border-4 border-transparent hover:border-indigo-800"></span>
                 </button>
-        </div>
-        {/* Social media links */}
-        <div className='flex space-x-4 cursor-pointer'>
-          <a href="https://github.com/mmorrow6109" target="_blank" rel="noopener noreferrer">
-            <BsGithub size={40} className='group rounded-full hover:border-4 hover:border-indigo-800'/>
-          </a>
-          <a href="https://www.linkedin.com/in/matthew-morrow-/" target="_blank" rel="noopener noreferrer">
-            <BsLinkedin size={40} className='group rounded-full hover:border-4 hover:border-indigo-800'/>
-          </a>
         </div>
       </div>
     </section>
