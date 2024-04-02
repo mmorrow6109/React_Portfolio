@@ -29,7 +29,7 @@ export default function Resume() {
                             ))}
                             {/* Download resume link */}
                             <div className="mb-8">
-                                <a href={resumeLink} className="text-indigo-600 hover:text-indigo-800 underline block">Download my resume</a>
+                                <a href={resumeLink} className="text-indigo-600 hover:text-indigo-800 underline block">View full resume!</a>
                             </div>
                         </ul>
                     </div>
