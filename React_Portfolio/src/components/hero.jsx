@@ -35,8 +35,12 @@ const Hero = () => {
                 </button>
 
                 <div className='flex space-x-4 cursor-pointer'>
-                    <BsGithub size={40} className='group rounded-full hover:border-4 hover:border-indigo-800'/>
-                    <BsLinkedin size={40} className='group rounded-full hover:border-4 hover:border-indigo-800'/>
+                    <a href="https://github.com/mmorrow6109" target="_blank" rel="noopener noreferrer">
+                        <BsGithub size={40} className='group rounded-full hover:border-4 hover:border-indigo-800'/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/matthew-morrow-/" target="_blank" rel="noopener noreferrer">
+                        <BsLinkedin size={40} className='group rounded-full hover:border-4 hover:border-indigo-800'/>
+                    </a>
                 </div>
             </div>
         </section>
