@@ -3,7 +3,7 @@ import HeroPic from '../assets/heroPic.jpg'
 
 const Hero = () => {
     return (
-        <section className='flex justify-around items-center p-5 lg:p-10 space-y-5 lg:space-y-10 lg:flex-row ssm:flex-col ssm:space-y-5 text-white'>
+        <section className='bg-indigo-500 flex justify-around items-center p-5 lg:p-10 space-y-5 lg:space-y-10 lg:flex-row ssm:flex-col ssm:space-y-5 text-white'>
             {/* Left Section */}
             <div className='lg:w-1/4 ssm:w-1/3 ssm:pr-5'>
                 <p className='text-3xl mb-2 lg:mb-5 text-slate-300'>I'm</p>

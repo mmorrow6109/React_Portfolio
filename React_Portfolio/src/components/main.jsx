@@ -2,6 +2,7 @@ import Nav from './nav.jsx';
 import Hero from './hero.jsx';
 import Projects from './projects.jsx';
 import Footer from './footer.jsx';
+import Contact from './contact.jsx';
 
 const main = () => {
     return (
@@ -11,6 +12,7 @@ const main = () => {
             <Hero/>
             <div className="border-t border-white"></div>
             <Projects/>
+            <Contact/>
             <Footer/>
         </div>
     )

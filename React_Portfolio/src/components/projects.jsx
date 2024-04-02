@@ -6,9 +6,9 @@ import Project1Img from '../assets/question.jpg'
 export default function Projects() {
     return (
         <>
-            <div id='projects-section' className='bg-indigo-800 m-20 max-w-full'>
+            <div id='projects-section' className='bg-indigo-800 m-20 max-w-full rounded-xl'>
                 <div className='grid justify-items-center m-10'>
-                    <h1 className='text-3xl text-white mt-10'>Projects</h1>
+                    <h1 className='text-3xl text-white mt-10 font-mono'>Projects</h1>
                 </div>
 
                 <div>
