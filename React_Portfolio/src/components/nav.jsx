@@ -36,11 +36,13 @@ const Nav = () => {
                 <div className="space-x-4">
                     {/* Menu links for larger screens */}
                     <div className="ssm:hidden sm:hidden md:block lg:block xl:block space-x-2">
-                        <a href="#" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">About</a>
-                        <a href="#" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Projects</a>
-                        <a href="#" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Contact</a>
-                        <a href="#" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Resume</a>
-                    </div>
+                        <a href="#about-section" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">About</a>
+                        <a href="#projects-section" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Projects</a>
+                        <a href="#contact-section" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Contact</a>
+                        <a href="#resume-section" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Resume</a>
+                    </div> {/*need to add contact section at bottom and link to a resume file*/}
+                           {/*can probably bail on about me link and have it expand when i click on "see more" button*/}
+
                     {/* Menu toggle button for smaller screens */}
                     <div className="ssm:block sm:block md:hidden lg:hidden xl:hidden">
                         {/* Ternary operator to render close icon if menu is open, and menu icon if closed */}
