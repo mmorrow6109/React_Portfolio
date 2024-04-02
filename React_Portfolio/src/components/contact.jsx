@@ -1,4 +1,8 @@
 import { FaArrowRight } from 'react-icons/fa';
+import { FaEnvelope } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import { FaChessKing } from "react-icons/fa";
 
 export default function Contact() {
     return (
@@ -35,15 +39,19 @@ export default function Contact() {
                     <div className="p-4 bg-white rounded-lg shadow-md">
                         <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
                         <div className="flex items-center mb-2">
-                            <span className="mr-2"><i className="fas fa-envelope text-gray-600"></i></span>
+                            <span className="mr-2"><i className="text-gray-600"><FaChessKing/></i></span>
+                            <span>Matthew Morrow</span>
+                        </div>
+                        <div className="flex items-center mb-2">
+                            <span className="mr-2"><i className="text-gray-600"><FaEnvelope/></i></span>
                             <span>msmorrow6109@gmail.com</span>
                         </div>
                         <div className="flex items-center mb-2">
-                            <span className="mr-2"><i className="fas fa-phone text-gray-600"></i></span>
-                            <span>Email for phone number</span>
+                            <span className="mr-2"><i className=" text-gray-600"></i><FaPhone/></span>
+                            <span>(_ _ _) _ _ _ - _ _ _ _</span>
                         </div>
                         <div className="flex items-center">
-                            <span className="mr-2"><i className="fas fa-map-marker-alt text-gray-600"></i></span>
+                            <span className="mr-2"><i className=" text-gray-600"></i><FaHome/></span>
                             <span>Portland, OR</span>
                         </div>
                     </div>
