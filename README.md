@@ -6,7 +6,7 @@ This portfolio was created using React, Vite, and Tailwind.  Eventually I will h
 
 ## Table of Contents
 - [License](#license)
-- [Contributing](#contributing))
+- [Contributing](#contributing)
 - [Questions](#questions)
 
 
