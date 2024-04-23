@@ -33,7 +33,7 @@ const Hero = () => {
       <div id='#about-section' className='lg:w-1/4 ssm:w-1/3 ssm:pl-5 lg:pl-0'>
         <p className='text-4xl mb-2 lg:mb-3'>About Me</p>
         <p className='text-slate-300 mb-4 lg:mb-5'>
-          Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+          Based in Portland, OR.  I love building web applications and learning new technologies.  Front end for creativity, back end for exercising the mind, and everything else in between.
         </p>
         {/* Show More button and additional information */}
         <div>
