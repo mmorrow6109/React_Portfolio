@@ -24,6 +24,6 @@
       "jsonwebtoken": "^8.5.1"      
   },
   "engines": {
-      "node": "v18.20.2"
+      "node": "v20.10.0"
   }
 }
