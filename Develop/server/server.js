@@ -13,6 +13,17 @@ app.use(express.static(path.join(__dirname, 'public'), {
   }
 }));
 
+// Serve 'main.jsx' from a different directory
+const MAIN_JSX_PATH = path.join(__dirname, './client/src/main.jsx');
+
+app.get('/main.js', (req, res) => {
+  res.sendFile(MAIN_JSX_PATH, {
+    headers: {
+      'Content-Type': 'application/javascript',
+    },
+  });
+});
+
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
