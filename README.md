@@ -9,6 +9,8 @@ This portfolio was created using React, Vite, and Tailwind.  Eventually I will h
 - [Contributing](#contributing)
 - [Questions](#questions)
 
+## Netlify Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/39dbedc7-2992-4d12-bbf1-82f1eb5a5a5b/deploy-status)](https://app.netlify.com/sites/matt-morrow-portfolio/deploys)
 
 ## License
 This project is not licensed.
