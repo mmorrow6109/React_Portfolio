@@ -33,28 +33,31 @@ const Hero = () => {
       <div id='#about-section' className='lg:w-1/4 ssm:w-1/3 ssm:pl-5 lg:pl-0'>
         <p className='text-4xl mb-2 lg:mb-3'>About Me</p>
         <p className='text-slate-300 mb-4 lg:mb-5'>
-          Based in Portland, OR.  I love building web applications and learning new technologies.  Front end for creativity, back end for exercising the mind, and everything else in between.
+          Based in Portland, OR. I love building web applications and learning new technologies. Front end for creativity, back end for exercising the mind, and everything else in between.
         </p>
         {/* Show More button and additional information */}
         <div>
-            <p className={`text-xl ${expanded ? 'block' : 'hidden'}`}>
-                I have experience with the following technologies:
-                <div className={`rounded-lg bg-gray-100 p-4 mt-4 about-section transition-all duration-10000 ${expanded ? 'max-h-full' : 'max-h-0 overflow-hidden'}`}>
-                    <ul className='text-gray-700'>
-                        <li className='mb-2'>React, Node, Express, and MongoDB</li>
-                        <li className='mb-2'>HTML, CSS, and JavaScript</li>
-                        <li className='mb-2'>Git and GitHub</li>
-                        <li className='mb-2'>Responsive web design</li>
-                        <li className='mb-2'>RESTful APIs</li>
-                    </ul>
-                </div>
-            </p>
-                <button  onClick={handleButtonClick} className='bg-white text-indigo-600 px-8 lg:px-10 py-2 my-3 rounded-full group relative'>
-                    <span className="inline-block">
-                    {expanded ? 'Show Less' : 'Show More...'}
-                    </span>
-                    <span className="absolute inset-0 rounded-full border-4 border-transparent hover:border-indigo-800"></span>
-                </button>
+          <p className={`text-xl ${expanded ? 'block' : 'hidden'}`}>
+            I have experience with the following technologies:
+          </p>
+          <div className={`rounded-lg bg-gray-100 mt-4 about-section transition-all duration-0 ${expanded ? 'max-h-full' : 'max-h-0 overflow-hidden'}`}>
+            {/* Wrap the ul in a separate div */}
+            <div>
+              <ul className='text-gray-700 p-4'>
+                <li className='mb-2'>React, Node, Express, and MongoDB</li>
+                <li className='mb-2'>HTML, CSS, and JavaScript</li>
+                <li className='mb-2'>Git and GitHub</li>
+                <li className='mb-2'>Responsive web design</li>
+                <li className='mb-2'>RESTful APIs</li>
+              </ul>
+            </div>
+          </div>
+          <button onClick={handleButtonClick} className='bg-white text-indigo-600 px-8 lg:px-10 py-2 my-3 rounded-full group relative'>
+            <span className="inline-block">
+              {expanded ? 'Show Less' : 'Show More...'}
+            </span>
+            <span className="absolute inset-0 rounded-full border-4 border-transparent hover:border-indigo-800"></span>
+          </button>
         </div>
       </div>
     </section>
