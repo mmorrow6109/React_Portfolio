@@ -8,12 +8,13 @@ export default defineConfig({
     port: 3000,
     open: true,
   },
-  build: {
-    rollupOptions: {
-      external: [
-        '/src/main.jsx',
-        // add any other external modules here if needed
-      ],
-    },
-  },
+  // Removed external configuration
+  // build: {
+  //   rollupOptions: {
+  //     external: [
+  //       '/src/main.jsx', // Remove this line
+  //       // add any other external modules here if needed
+  //     ],
+  //   },
+  // },
 });
