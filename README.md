@@ -22,6 +22,6 @@ Matt Morrow
 For any questions, please contact [mmorrow6109](https://github.com/mmorrow6109) or email at msmorrow6109@gmail.com.
 
 ## Screenshots
-![about](readmeAssets\react1.png)
-![portfolio](readmeAssets\react2.png)
-![contact](readmeAssets\react3.png)
+![about](./readmeAssets/react1.png)
+![portfolio](./readmeAssets/react2.png)
+![contact](./readmeAssets/react3.png)
