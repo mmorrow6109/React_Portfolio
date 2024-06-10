@@ -1,5 +1,5 @@
 import PendingImg from '../assets/question.jpg'
-import Project1Img from '../assets/BooknDine.png'
+import Project1Img from '../assets/ReactEssentials.png'
 import Project2Img from '../assets/CCrafters.png'
 // import Project3Img from '../assets/3.jpg'
 // import Project4Img from '../assets/4.jpg'
@@ -16,16 +16,16 @@ export default function Portfolio() {
 
                 <div>
                     <div className='grid grid-cols-2 gap-4 p-5'>
-                        <a href='https://uofo-group-project2-c8b71b96b277.herokuapp.com/' className='block'>
+                        <a href='https://mmorrowreactessentials.netlify.app/' className='block'>
                             <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
                                 <div className='md:flex'>
                                     <div className='p-8'>
                                         <div className='uppercase tracking-wide text-sm to-indigo-500 font-semibold'>
-                                            Recipe Management App
+                                            React: Core Concepts
                                         </div>
-                                        <h1 className='text-xl font-bold'>Culinary Crafters</h1>
+                                        <h1 className='text-xl font-bold'>React Essentials</h1>
                                         <p className='mt-2 text-gray-500'>
-                                            Collaborative project to create a recipe management app. Users can create, edit, and delete recipes. They can also search for recipes by name or ingredient.
+                                            A project created to briefly demonstrate the core concepts of React (Components, JSX, Props, and State)
                                         </p>
                                     </div>
                                     <div className='md:shrink-0 pt-12 image-container'> {/* Image container */}
