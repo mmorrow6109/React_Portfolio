@@ -1,8 +1,8 @@
 import PendingImg from '../assets/question.jpg'
 import Project1Img from '../assets/ReactEssentials.png'
 import Project2Img from '../assets/CCrafters.png'
-// import Project3Img from '../assets/3.jpg'
-// import Project4Img from '../assets/4.jpg'
+import Project3Img from '../assets/investment-calc-react.png'
+import Project4Img from '../assets/tictactoe.png'
 // import Project5Img from '../assets/5.jpg'
 // import Project6Img from '../assets/6.jpg'
 
@@ -29,7 +29,7 @@ export default function Portfolio() {
                                         </p>
                                     </div>
                                     <div className='md:shrink-0 pt-12 image-container'> {/* Image container */}
-                                        <img src={Project1Img} alt='Project 1' className='rounded-full mr-8' width={150} height={150} /> {/* Image */}
+                                        <img src={Project1Img} alt='Project 1: React Essentials' className='rounded-full mr-8' width={150} height={150} /> {/* Image */}
                                     </div>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ export default function Portfolio() {
                             <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
                                 <div className='md:flex'>
                                     <div className='md:shrink-0 pt-12 image-container'> {/* Image container */}
-                                        <img src={Project2Img} alt='Project 2' className='rounded-full ml-8' width={150} height={150} /> {/* Image */}
+                                        <img src={Project2Img} alt='Project 2: Restaurant Reservation App' className='rounded-full ml-8' width={150} height={150} /> {/* Image */}
                                     </div>
                                     <div className='p-8'>
                                         <div className='uppercase tracking-wide text-sm to-indigo-500 font-semibold'>
@@ -58,31 +58,31 @@ export default function Portfolio() {
                     
                     {/* Additional project sections */}
                     <div className='grid grid-cols-2 gap-4 p-5'>
-                        <a href='https://project3link.com' className='block'>
+                        <a href='https://mmorrowinvestmentcalculator.netlify.app/' className='block'>
                             <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
                                 <div className='md:flex'>
                                     <div className='p-8'>
                                         <div className='uppercase tracking-wide text-sm to-indigo-500 font-semibold'>
-                                            Project 3
+                                            Investment Calculator
                                         </div>
                                         <h1 className='text-xl font-bold'>Project 3 Name</h1>
                                         <p className='mt-2 text-gray-500'>
-                                            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                            A calculator that allows users to input an initial investment amount, monthly contributions, and interest rate to calculate future value.
                                         </p>
                                     </div>
                                     <div className='md:shrink-0 pt-12 image-container'> {/* Image container */}
-                                        <img src={PendingImg} alt='Project 3' className='rounded-full mr-8' width={150} height={150} /> {/* Image */}
+                                        <img src={Project3Img} alt='Project 3: Investment Calculator' className='rounded-full mr-8' width={150} height={150} /> {/* Image */}
                                     </div>
                                 </div>
                             </div>
                         </a>
 
                         {/* Repeat this block for additional projects */}
-                        <a href='https://project4link.com' className='block'>
+                        <a href='https://main--mmorrowtictactoe.netlify.app/' className='block'>
                             <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
                                 <div className='md:flex'>
                                     <div className='md:shrink-0 pt-12 image-container'> {/* Image container */}
-                                        <img src={PendingImg} alt='Project 4' className='rounded-full ml-8' width={150} height={150} /> {/* Image */}
+                                        <img src={Project4Img} alt='Project 4: Tic Tac Toe' className='rounded-full ml-8' width={150} height={150} /> {/* Image */}
                                     </div>
                                     <div className='p-8'>
                                         <div className='uppercase tracking-wide text-sm to-indigo-500 font-semibold'>
