@@ -15,7 +15,7 @@ export default function Portfolio() {
                 </div>
 
                 <div>
-                    <div className='grid grid-cols-2 gap-4 p-5'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 p-5'>
                         <a href='https://mmorrowreactessentials.netlify.app/' className='block'>
                             <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
                                 <div className='md:flex'>
@@ -57,7 +57,7 @@ export default function Portfolio() {
                     <hr/>
                     
                     {/* Additional project sections */}
-                    <div className='grid grid-cols-2 gap-4 p-5'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 p-5'>
                         <a href='https://mmorrowinvestmentcalculator.netlify.app/' className='block'>
                             <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
                                 <div className='md:flex'>
@@ -98,7 +98,7 @@ export default function Portfolio() {
                         </a>
                     </div>
                     <hr/>
-                    <div className='grid grid-cols-2 gap-4 p-5'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-3 p-5'>
                         <a href='https://project5link.com' className='block'>
                             <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
                                 <div className='md:flex'>
